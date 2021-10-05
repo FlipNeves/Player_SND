@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(34, 34, 34);
+  --primary-color: rgb(56, 56, 56);
   --primary-darker: rgb(0, 0, 0);
   --primary-color-cleaner: rgb(113, 228, 119);
   --roxo-btn: rgb(173, 72, 190);
-  --reiniciou-tempo: rgb(81, 205, 243);
-  --background-header: rgb(40, 49, 59);
+  --background-header: rgb(37, 67, 102);
   --background-footer: rgb(93, 110, 134);
 
 }
@@ -148,18 +147,22 @@ input{
 
 .trackTitle{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .container {
-    max-width: 640px;
+    max-width: 880px;
     margin: 50px auto;
-    background: linear-gradient(180deg, var(--background-header) 0%, var(--background-footer) 100%);
+    background: var(--background-footer);
     color: #FFF;
     padding: 20px;
     border-radius: 10px;
 }
 
 #albumImage{
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     padding: 25px;
 }
