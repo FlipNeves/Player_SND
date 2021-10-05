@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(34, 34, 34);
+  --primary-darker: rgb(0, 0, 0);
+  --primary-color-cleaner: rgb(113, 228, 119);
+  --roxo-btn: rgb(173, 72, 190);
+  --reiniciou-tempo: rgb(81, 205, 243);
+  --background-header: rgb(40, 49, 59);
+  --background-footer: rgb(93, 110, 134);
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title{
+    padding-bottom: 25px;
+}
+
+#tokenSection{
+    display: none;
+}
+
+#deviceSection{
+    display: none;
+}
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    background: var(--roxo-btn);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.btn-lg{
+    height: 50px;
+    width: 100%;
+    font-size: 1.1em; 
+}
+
+.btn-icon{
+    width: 40px;
+    height: 40px;
+    background: none;
+    margin-right: 17%;
+    margin-bottom: 10px;
+}
+
+.more-used{
+    width: 40px;
+    height: 40px;
+    background: none;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 10px;
+}
+
+.playOrPauseButton{
+    width: 70px;
+    height: 70px;
+    margin: 0, 10%, 0, 10%;
+}
+
+.faq{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/906/906794.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.devices{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2736/2736116.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.playlist{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/727/727239.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.music{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/876/876817.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.play{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/149/149668.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shuffle{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/32/32238.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pause{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2088/2088562.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.next{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/254/254428.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.prev{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/254/254437.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.select-control{
+    width: 100%;
+}
+
+.title{
+    color: var(--primary-color-cleaner);
+}
+
+.trackTitle{
+    text-align: center;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: linear-gradient(180deg, var(--background-header) 0%, var(--background-footer) 100%);
+    color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#albumImage{
+    width: 100%;
+    padding: 25px;
+}
